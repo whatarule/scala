@@ -1,0 +1,61 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mListDoctest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:29: tail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 30: List.tail(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 33: List.tail(List.Nil)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:42: setHead[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 43: List.setHead(0,List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 46: List.setHead(0, List.Nil)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:55: drop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 56: List.drop(2, List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 59: List.drop(3, List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 62: List.drop(4, List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:72: dropWhile[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 73: List.dropWhile((x: Int) => x < 3)(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 76: List.dropWhile((x: Int) => x < 4)(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:85: _dropWhile[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 86: List._dropWhile(List(1,2,3))(x => x < 3)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:96: append[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 97: List.append(List(1,2), List(3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:107: init[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 108: List.init(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:133: sumF[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 134: List.sumF(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:139: productF[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 140: List.productF(List(0,1,2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:149: lengthF[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 150: List.lengthF(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:157: foldLeft[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 158: List.foldLeft(List.add, 0)(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:172: sum[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 173: List.sum(List(0,1,2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:178: product[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 179: List.product(List(0,1,2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:184: incrementL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 185: List.length(List(0,1,2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:194: cons[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 195: List.cons(1,List.Nil)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 198: List.consL(List.Nil,1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:207: fixT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 208: List(1,2,"3")[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 211: List.reverse(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 214: List._reverse(List(1,2,3))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:242: add2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 244: (curry(add)(2) compose curry(add)(3))(2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 248: (add2(1) compose add2(1))(2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:257: foldRightL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 259: foldRightL(add, 0)(List(0,1,2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:268: appendF[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 269: List.appendF(List(0,1), List(2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:276: joinList[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 277: List.joinList(List(List(0,1), List(2), List(3,4)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:284: incrementM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 285: List.incrementM(List(0,1,2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:292: stringM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 293: List.stringM(List(0,1,2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:300: map[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 302: map(add2(1), List(0,1,2))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList.scala:309: filter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 310: List.even(2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 313: List.even(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- example at line 317: filter(even, List(0,1,2)) *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "[Cons(0,Cons(2,Nil))]" did not equal "[1]" (ListDoctest.scala:210)[0m[0m

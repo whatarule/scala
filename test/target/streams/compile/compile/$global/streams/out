@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/HelloSpec.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/HelloSpec.scala:3:25: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloSpec extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/HelloSpec.scala:3:39: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloSpec extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/HelloSpec.scala:5:11: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "Hello" should "create a simple greeting" in {[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/HelloSpec.scala:6:20: not found: value Hello[0m
+[0m[[0m[31merror[0m] [0m[0m    val greeting = Hello.createGreeting(Array())[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/HelloSpec.scala:10:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "create a greeting with name" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/HelloSpec.scala:11:20: not found: value Hello[0m
+[0m[[0m[31merror[0m] [0m[0m    val greeting = Hello.createGreeting(Array("Takashi"))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

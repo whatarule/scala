@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/src/test/scala/HelloSpec.scala:6:20: not found: value Hello[0m
+[0m[[0m[31merror[0m] [0m[0m    val greeting = Hello.createGreeting(Array())[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/test/src/test/scala/HelloSpec.scala:11:20: not found: value Hello[0m
+[0m[[0m[31merror[0m] [0m[0m    val greeting = Hello.createGreeting(Array("Takashi"))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

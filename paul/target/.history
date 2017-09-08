@@ -1,0 +1,10 @@
+testOnly ListDoctest
+test
+run
+compile
+test
+run
+test
+testOnly ListDoctest
+run
+testOnly ListDoctest

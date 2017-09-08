@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Sample1Spec, org.scalatest.tools.Framework$$anon$1@2a2d0dbb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Sample2Spec, org.scalatest.tools.Framework$$anon$1@2a2d0dbb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(HelloSpec, org.scalatest.tools.Framework$$anon$1@2a2d0dbb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDoctest, org.scalatest.tools.Framework$$anon$1@2a2d0dbb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 854 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 7, Failed 0, Errors 0, Passed 7[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sample1Spec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sample2Spec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestDoctest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloSpec[0m

@@ -1,0 +1,31 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:3:24: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass CalcSpec extends FlatSpec with DiagrammedAssertions {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:3:38: not found: type DiagrammedAssertions[0m
+[0m[[0m[31merror[0m] [0m[0mclass CalcSpec extends FlatSpec with DiagrammedAssertions {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:7:11: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "sum関数" should "整数の配列を取得し、それらを足し合わせた整数を返すことができる" in {[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:8:35: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(calc.sum(Seq(1, 2, 3)) === 6)[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:9:29: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(calc.sum(Seq(0)) === 0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:10:33: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(calc.sum(Seq(-1, 1)) === 0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:11:28: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(calc.sum(Seq()) === 0)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:14:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "Intの最大を上回った際にはオーバーフローする" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/dwango/scalatest_study/src/test/scala/CalcSpec.scala:15:48: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(calc.sum(Seq(Integer.MAX_VALUE, 1)) === Integer.MIN_VALUE)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wk/scala/paul/target/scala-2.12/src_managed/test/ListDoctest.scala:154:43: value compose is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m      sbtDoctestReplString((add(1,_: Int) compose identity(_: Int))(2)) should equal("3")[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

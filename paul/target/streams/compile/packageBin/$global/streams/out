@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/wk/scala/paul/target/scala-2.12/paul_2.12-0.1-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	List$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/wk/scala/paul/target/scala-2.12/classes/List$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/wk/scala/paul/target/scala-2.12/classes/List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	List$Cons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/wk/scala/paul/target/scala-2.12/classes/List$Cons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	List$Cons$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/wk/scala/paul/target/scala-2.12/classes/List$Cons$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/wk/scala/paul/target/scala-2.12/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	List$Nil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/wk/scala/paul/target/scala-2.12/classes/List$Nil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/wk/scala/paul/target/scala-2.12/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	List$List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/wk/scala/paul/target/scala-2.12/classes/List$List.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

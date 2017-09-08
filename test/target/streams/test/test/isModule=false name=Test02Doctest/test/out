@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTest02Doctest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTest02.scala:5: f[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 10: Test.f(10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 14: Test.f(20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- property at line 18: (i: Int) => Test.f(i) == (i * 2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTest02.scala:23: add[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example at line 28: Test.add(1,2)[0m[0m

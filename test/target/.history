@@ -1,0 +1,24 @@
+about
+compile
+run
+compile
+run
+test
+run
+test
+run
+compile
+run
+test
+run
+sbt test
+test
+run
+test
+compile
+:q
+q
+quit
+:quit
+testOnly HelloSpec
+testOnly TestDoctest
